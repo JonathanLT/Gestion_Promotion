@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonProject.Presentation.Ws", "MonProject.Presentation.Ws\MonProject.Presentation.Ws.csproj", "{7B24A056-F2BF-4CDD-9059-C80CEAA3CC21}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Serveur", "0 - Serveur", "{C365D742-EB14-4CBE-8F2D-E346924F4924}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Client", "1 - Client", "{D488E68E-973F-4616-9185-B6FB83BFCDE9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{E3EEA48A-3C2C-4192-B398-73E56076CE00}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Business", "1 - Business", "{9ACDDB6D-EA57-46BB-9185-6FF3383047F4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Data", "2 - Data", "{B25C493D-658B-4864-8B9A-A914A50A584E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Entity", "3 - Entity", "{24941A00-76FD-42C8-8B68-5A3F62A9D8D5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonProjet.Business.Core", "MonProjet.Business.Core\MonProjet.Business.Core.csproj", "{4E920BD5-E471-466D-A481-0F69AD21DAC6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonProjet.Traitement.Data", "MonProjet.Data.Core\MonProjet.Traitement.Data.csproj", "{8A075B65-9DA7-4EE2-A1B1-1ED7221E38B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonProjet.Donnee.Entity", "MonProjet.Donnee.Entity\MonProjet.Donnee.Entity.csproj", "{68125B7D-40DC-446B-8ECB-142A329C1161}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B24A056-F2BF-4CDD-9059-C80CEAA3CC21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B24A056-F2BF-4CDD-9059-C80CEAA3CC21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B24A056-F2BF-4CDD-9059-C80CEAA3CC21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B24A056-F2BF-4CDD-9059-C80CEAA3CC21}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E920BD5-E471-466D-A481-0F69AD21DAC6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E920BD5-E471-466D-A481-0F69AD21DAC6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E920BD5-E471-466D-A481-0F69AD21DAC6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E920BD5-E471-466D-A481-0F69AD21DAC6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A075B65-9DA7-4EE2-A1B1-1ED7221E38B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A075B65-9DA7-4EE2-A1B1-1ED7221E38B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A075B65-9DA7-4EE2-A1B1-1ED7221E38B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A075B65-9DA7-4EE2-A1B1-1ED7221E38B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68125B7D-40DC-446B-8ECB-142A329C1161}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68125B7D-40DC-446B-8ECB-142A329C1161}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68125B7D-40DC-446B-8ECB-142A329C1161}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68125B7D-40DC-446B-8ECB-142A329C1161}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E3EEA48A-3C2C-4192-B398-73E56076CE00} = {C365D742-EB14-4CBE-8F2D-E346924F4924}
+		{9ACDDB6D-EA57-46BB-9185-6FF3383047F4} = {C365D742-EB14-4CBE-8F2D-E346924F4924}
+		{B25C493D-658B-4864-8B9A-A914A50A584E} = {C365D742-EB14-4CBE-8F2D-E346924F4924}
+		{24941A00-76FD-42C8-8B68-5A3F62A9D8D5} = {C365D742-EB14-4CBE-8F2D-E346924F4924}
+		{7B24A056-F2BF-4CDD-9059-C80CEAA3CC21} = {E3EEA48A-3C2C-4192-B398-73E56076CE00}
+		{4E920BD5-E471-466D-A481-0F69AD21DAC6} = {9ACDDB6D-EA57-46BB-9185-6FF3383047F4}
+		{8A075B65-9DA7-4EE2-A1B1-1ED7221E38B0} = {B25C493D-658B-4864-8B9A-A914A50A584E}
+		{68125B7D-40DC-446B-8ECB-142A329C1161} = {24941A00-76FD-42C8-8B68-5A3F62A9D8D5}
+	EndGlobalSection
+EndGlobal
