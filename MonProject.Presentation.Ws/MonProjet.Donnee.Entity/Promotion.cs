@@ -14,6 +14,15 @@ namespace MonProjet.Donnee.Entity
         private int m_annee_fin;
         private List<Etudiant> m_List_Etud;
         private int m_nb_etd;
+
+        public Promotion(int v_Id, int v_Dbt, int v_Fin)
+        {
+            // TODO: Complete member initialization
+            Id = v_Id;
+            Annee_dbt = v_Dbt;
+            Annee_fin = v_Fin;
+            List_Etud = new List<Etudiant>();
+        }
         #endregion
 
         #region Accesseur
@@ -35,7 +44,7 @@ namespace MonProjet.Donnee.Entity
             set { m_annee_fin = value; }
         }
 
-        internal List<Etudiant> List_Etud
+        public List<Etudiant> List_Etud
         {
             get { return m_List_Etud; }
             set { m_List_Etud = value; }

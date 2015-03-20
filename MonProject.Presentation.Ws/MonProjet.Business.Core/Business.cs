@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace MonProjet.Business.Core
 {
-    public class Class1
+    public class Business
     {
+        public static void Main()
+        {
+            Data.Core.Data.start();
+        }
     }
 }
